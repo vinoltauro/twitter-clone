@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex bg-black min-h-screen">
+      <main className="bg-black min-h-screen flex mx-auto">
         <Sidebar />
       </main>
     </div>
