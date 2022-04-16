@@ -1,5 +1,7 @@
 import Head from "next/head";
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/Sidebar";
+import Feed from "../components/Feed";
+
 export default function Home() {
   return (
     <div>
@@ -11,6 +13,7 @@ export default function Home() {
 
       <main className="bg-black min-h-screen flex mx-auto">
         <Sidebar />
+        <Feed />
       </main>
     </div>
   );
